@@ -1,9 +1,13 @@
+body    {
+    font-family: 'PT Serif', serif;
+}
+
 body, html  {
     height: 100%;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("\images\web-dev.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/web-dev.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,4 +22,8 @@ body, html  {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.about-me   {
+    text-align: center;
 }
