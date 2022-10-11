@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6b42ab2727.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="..\css\style.css">
     <title>Simon Lowe | Portfolio</title>
 </head>
@@ -44,7 +45,7 @@
     <!-- About Me -->
     <div class="about-me">
         <h2>About Me</h2>
-        <p>I am a web developer with a keen eye for detail. I enjoy building websites for all scenarios, and take pride in every piece of work I do.</p> 
+        <p>I am a Freelance Web Developer. </p> 
     </div>
 
 
@@ -56,29 +57,35 @@
         </div>
 
             <div class="row align-items-start">
-                <div class="col-4 mx-auto htmlSkill" id="htmlSkill">
+                <div class="col-4 mx-auto htmlSkill skillSet" id="htmlSkill">
                     <i class="fa-brands fa-html5"></i><span>HTML</span>
                 </div>
-                <div class="col-4 mx-auto cssSkill" id="cssSkill">
+                <div class="col-4 mx-auto cssSkill skillSet" id="cssSkill">
                     <i class="fa-brands fa-css3-alt"></i><span>CSS</span>
                 </div>
             </div>
 
             <div class="row align-items-start">
-                <div class="col-4 mx-auto javascriptSkill" id="javascriptSkill">
+                <div class="col-4 mx-auto javascriptSkill skillSet" id="javascriptSkill">
                     <i class="fa-brands fa-square-js"></i><span>JavaScript</span>
                 </div>
-                <div class="col-4 mx-auto wordpressSkill" id="wordpressSkill">
+                <div class="col-4 mx-auto wordpressSkill skillSet" id="wordpressSkill">
                     <i class="fa-brands fa-wordpress"></i><span>WordPress</span>
                 </div>
             </div>
 
             <div class="row align-items-start">
-                <div class="col-4 mx-auto bootstrapSkill" id="bootstrapSkill">
+                <div class="col-4 mx-auto bootstrapSkill skillSet" id="bootstrapSkill">
                     <i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span>
                 </div>
-                <div class="col-4 mx-auto gitSkill" id="gitSkill">
+                <div class="col-4 mx-auto gitSkill skillSet" id="gitSkill">
                     <i class="fa-brands fa-github"></i><span>Git</span>
+                </div>
+            </div>
+            
+            <div class="row align-items-start">
+                <div class="col-4 mx-auto figmaSkill skillSet" id="figmaSkill">
+                    <i class="fa-brands fa-figma"></i><span>Figma</span>
                 </div>
             </div>
     </div>
@@ -138,9 +145,17 @@
         </div>
       
         <input class="btn btn-primary" type="submit" id="button" value="Send Email" >
-      </form>
+    </form>
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("vs3WXvn1h3bvzTjlA");
+        })();
+     </script>
     <script src="/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
 </body>
 </html>
