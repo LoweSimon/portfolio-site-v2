@@ -1,9 +1,14 @@
 body    {
     font-family: 'PT Serif', serif;
+    background-color: rgba(9, 51, 146, 0.88);
 }
 
 body, html  {
     height: 100%;
+}
+
+div {
+    color: white;
 }
 
 .hero-image {
@@ -36,6 +41,7 @@ body, html  {
 .cards-wrapper  {
     display: flex;
     justify-content: center;
+    padding: 10px, 10px;
 }
 
 .card-img   {
@@ -48,6 +54,7 @@ body, html  {
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
     border-radius: 0;
+    width: 18rem;
 }
 
 .carousel-inner {

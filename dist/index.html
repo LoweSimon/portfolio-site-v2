@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Nav Menu -->
-    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Simon Lowe</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
@@ -29,6 +29,15 @@
                     <a class="nav-link" href="#">Testimonials</a>
                     <a class="nav-link" href="#">Work With Me</a>
                 </ul>
+                <a href="https://github.com/LoweSimon" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/simon-lowe-49799688/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/SimonLowe90" target="_blank">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
             </div>
         </div>
     </nav>
@@ -56,46 +65,46 @@
             <p>I enjoy building things from scratch, and enjoy bringing ideas to life. Throughout this I have hands-on experience using the following languages and tools:</p>
         </div>
 
-            <div class="row align-items-start">
+            <div class="row pb-3 align-items-start">
                 <div class="col-4 mx-auto htmlSkill skillSet" id="htmlSkill">
-                    <i class="fa-brands fa-html5"></i><span>HTML</span>
+                    <i class="fa-brands fa-html5 fa-fw"></i><span>HTML</span>
                 </div>
                 <div class="col-4 mx-auto cssSkill skillSet" id="cssSkill">
-                    <i class="fa-brands fa-css3-alt"></i><span>CSS</span>
+                    <i class="fa-brands fa-css3-alt fa-fw"></i><span>CSS</span>
                 </div>
             </div>
 
-            <div class="row align-items-start">
+            <div class="row pb-3 align-items-start">
                 <div class="col-4 mx-auto javascriptSkill skillSet" id="javascriptSkill">
-                    <i class="fa-brands fa-square-js"></i><span>JavaScript</span>
+                    <i class="fa-brands fa-square-js fa-fw"></i><span>JavaScript</span>
                 </div>
                 <div class="col-4 mx-auto wordpressSkill skillSet" id="wordpressSkill">
-                    <i class="fa-brands fa-wordpress"></i><span>WordPress</span>
+                    <i class="fa-brands fa-wordpress fa-fw"></i><span>WordPress</span>
                 </div>
             </div>
 
-            <div class="row align-items-start">
+            <div class="row pb-3 align-items-start">
                 <div class="col-4 mx-auto bootstrapSkill skillSet" id="bootstrapSkill">
-                    <i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span>
+                    <i class="fa-brands fa-bootstrap fa-fw"></i><span>Bootstrap</span>
                 </div>
                 <div class="col-4 mx-auto gitSkill skillSet" id="gitSkill">
-                    <i class="fa-brands fa-github"></i><span>Git</span>
+                    <i class="fa-brands fa-github fa-fw"></i><span>Git</span>
                 </div>
             </div>
             
-            <div class="row align-items-start">
+            <div class="row pb-3 align-items-start">
                 <div class="col-4 mx-auto figmaSkill skillSet" id="figmaSkill">
-                    <i class="fa-brands fa-figma"></i><span>Figma</span>
+                    <i class="fa-brands fa-figma fa-fw"></i><span>Figma</span>
                 </div>
             </div>
     </div>
 
     <!-- Portfolio Work -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="cards-wrapper">
-                    <div class="card">
+                    <div class="card d-block">
                         <img src="/images/dndconverter.png" class="card-img-top" alt="DnD Converter">
                         <div class="card-body">
                             <h5 class="card-title">DnD Currency Converter</h5>
@@ -104,7 +113,7 @@
                         </div>
                     </div>
                 
-                    <div class="card d-none d-md-block">
+                    <div class="card d-block">
                         <img src="/images/NewHomes.PNG" class="card-img-top" alt="New Homes Near Me">
                         <div class="card-body">
                             <h5 class="card-title">New Homes Near Me</h5>
@@ -131,15 +140,15 @@
 
     <!-- Work With Me -->
     <form id="form">
-        <div class="field">
+        <div class="field mb-3">
           <label for="user_name">Your name</label>
           <input class="form-control" type="text" name="user_name" id="user_name" placeholder="Enter your name">
         </div>
-        <div class="field">
+        <div class="field mb-3">
           <label for="user_email">Email address</label>
           <input class="form-control" type="text" name="user_email" id="user_email" placeholder="Enter your email">
         </div>
-        <div class="field">
+        <div class="field mb-3  ">
           <label for="message">Message</label>
           <textarea class="form-control" type="text" name="message" id="message" placeholder="Please enter your message"></textarea>
         </div>
