@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0"
+  },
+  "name": "portfolio-site-v2",
+  "description": "��#\u0000 \u0000p\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000-\u0000s\u0000i\u0000t\u0000e\u0000-\u0000v\u00002\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoweSimon/portfolio-site-v2.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Simon Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoweSimon/portfolio-site-v2/issues"
+  },
+  "homepage": "https://github.com/LoweSimon/portfolio-site-v2#readme"
+}

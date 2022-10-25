@@ -66,10 +66,6 @@ div {
     width: 18rem;
 }
 
-.card-title, .card-text {
-    color: black;
-}
-
 .carousel-inner {
     padding: 1em;
 }
