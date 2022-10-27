@@ -10,7 +10,7 @@
     "postcss-cli": "^10.0.0"
   },
   "name": "portfolio-site-v2",
-  "description": "��#\u0000 \u0000p\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000-\u0000s\u0000i\u0000t\u0000e\u0000-\u0000v\u00002\u0000\r\u0000 \u0000",
+  "description": "Portfolio Website",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
