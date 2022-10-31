@@ -11,37 +11,43 @@
     <script src="https://kit.fontawesome.com/6b42ab2727.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/src/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/src/css/portfolio.css">
     <title>Simon Lowe | Portfolio</title>
 </head>
 <body>
     <!-- Nav Menu -->
-        <div class="container-fluid navbar nav navbar-expand-lg navbar-dark bg-light sticky-top ps-2">
-            <a class="navbar-brand" href="#">Simon Lowe</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    <a class="nav-link" href="#skills">Skills</a>
-                    <a class="nav-link" href="#mywork">My Work</a>
-                    <a class="nav-link" href="#testimonials">Testimonials</a>
-                    <a class="nav-link" href="#workwithme">Work With Me</a>
-                </ul>
-                <div class="d-flex ms-auto">
-                    <a href="https://github.com/LoweSimon" target="_blank">
-                        <i class="fa-brands fa-github fa-fw me-2"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/simon-lowe-49799688/" target="_blank">
-                        <i class="fa-brands fa-linkedin fa-fw me-2"></i>
-                    </a>
-                    <a href="https://twitter.com/SimonLowe90" target="_blank">
-                        <i class="fa-brands fa-square-twitter fa-fw me-2"></i>
-                    </a>
-                </div>
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 sticky-top">
+        <a class="navbar-brand" href="#">Simon Lowe</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mywork">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithme">Work With Me</a>
+          </li>
+          <div class="d-flex ms-auto pt-3">
+                <a href="https://github.com/LoweSimon" target="_blank">
+                    <i class="fa-brands fa-github fa-fw me-2"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/simon-lowe-49799688/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-fw me-2"></i>
+                </a>
+                <a href="https://twitter.com/SimonLowe90" target="_blank">
+                    <i class="fa-brands fa-square-twitter fa-fw me-2"></i>
+                </a>
             </div>
-        </div>
+        </ul>
+      </nav>
 
     <!-- Hero Section -->
     <div class="hero-image">
@@ -72,7 +78,7 @@
             <p>I enjoy building things from scratch, and enjoy bringing ideas to life. Throughout this I have hands-on experience using the following languages and tools:</p>
         </div>
 
-            <div class="row pb-3 pt-3 mx-auto align-items-start">
+            <div class="row pb-3 pt-3 mx-auto align-items-start gap-2">
                 <div class="col-sm-4 mx-auto htmlSkill skillSet bg-secondary" id="htmlSkill">
                     <i class="fa-brands fa-html5 fa-fw"></i><span>HTML</span>
                 </div>
@@ -81,7 +87,7 @@
                 </div>
             </div>
 
-            <div class="row pb-3 pt-3 mx-auto align-items-start">
+            <div class="row pb-3 pt-3 mx-auto align-items-start gap-2">
                 <div class="col-sm-4 mx-auto javascriptSkill skillSet bg-secondary" id="javascriptSkill">
                     <i class="fa-brands fa-square-js fa-fw"></i><span>JavaScript</span>
                 </div>
@@ -90,7 +96,7 @@
                 </div>
             </div>
 
-            <div class="row pb-3 pt-3 mx-auto align-items-start">
+            <div class="row pb-3 pt-3 mx-auto align-items-start gap-2">
                 <div class="col-sm-4 mx-auto bootstrapSkill skillSet bg-secondary" id="bootstrapSkill">
                     <i class="fa-brands fa-bootstrap fa-fw"></i><span>Bootstrap</span>
                 </div>
@@ -99,7 +105,7 @@
                 </div>
             </div>
             
-            <div class="row pb-3 pt-3 mx-auto align-items-start">
+            <div class="row pb-3 pt-3 mx-auto align-items-start gap-2">
                 <div class="col-sm-4 mx-auto figmaSkill skillSet bg-secondary" id="figmaSkill">
                     <i class="fa-brands fa-figma fa-fw"></i><span>Figma</span>
                 </div>
@@ -146,6 +152,11 @@
 
 
     <!-- Work With Me -->
+    <div class="w-50 mx-auto">
+        <h3>Like what you see? Need a website but don't know where to start?
+            Fill out this form to get in contact with me. 
+        </h3>
+    </div>
     <form id="form workwithme" class="w-50 mx-auto">
         <div class="field mb-3">
           <label for="user_name">Your name</label>
