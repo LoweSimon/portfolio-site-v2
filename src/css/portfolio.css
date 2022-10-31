@@ -1,0 +1,99 @@
+body    {
+    position: relative;
+}
+
+body, html  {
+    height: 100%;
+}
+
+div {
+    color: white;
+}
+
+/* Navbar styling */
+i   {
+    font-size: 1.5rem;
+    color: #e1e1e1;
+}
+
+.nav-link, .navbar-brand   {
+    font-size: x-large;
+    color: aqua;
+}
+
+/* Hero section styling */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/web-dev.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text  {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/* About me section styling */
+.about-me, .skills_title   {
+    text-align: center;
+}
+
+
+/* Skill list styling */
+.skillSet   {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* Projects section styling */
+.cards-wrapper  {
+    display: flex;
+    justify-content: center;
+    padding: 10px, 10px;
+}
+
+.card-img   {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-img-top   {
+    height: 30%;
+}
+
+.card   {
+    margin: 0 0.5rem;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    width: 18rem;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next  {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px)   {
+    .card-img   {
+        height: 11em;
+    }
+}
