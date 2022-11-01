@@ -1,5 +1,6 @@
 $light:         rgb(0, 70, 70);
 $body-bg:       rgb(0, 70, 70);
-$navbar-dark-active-color:          black;
+$navbar-light-toggler-border-color: white;
+$navbar-light-color:                white;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
