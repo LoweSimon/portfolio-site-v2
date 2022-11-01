@@ -12,7 +12,7 @@ div {
 
 /* Navbar styling */
 i   {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     color: #e1e1e1;
 }
 
@@ -20,6 +20,7 @@ i   {
     font-size: x-large;
     color: aqua;
 }
+
 
 /* Hero section styling */
 .hero-image {
@@ -42,30 +43,35 @@ i   {
 
 .lead{
     font-size: 30px;
-    margin: 10px 0 0 10px;
+    margin: 10px 10px 10px 10px;
     white-space: nowrap;
     overflow: hidden;
     width: 30em;
     animation: type 4s steps(60, end); 
   }
-
-  .descText {
-    font-size: 25px;
-    margin: 10px 10px 10px 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 30em;
-    animation: type 4s steps(60, end);
-  }
   
   @keyframes type{ 
     from { width: 10px; } 
-  } 
+  }
+
+  @media only screen and (max-width: 768px) {
+    .lead   {
+        animation: none;
+        white-space: wrap;
+        font-size: 15px;
+    }
+
+    .nav-link   {
+        font-size: medium;
+    }
+    
+  }
 
 
 /* About me section styling */
 .about-me, .skills_title   {
     text-align: center;
+    
 }
 
 
