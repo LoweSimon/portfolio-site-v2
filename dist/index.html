@@ -14,9 +14,9 @@
     <link rel="stylesheet" type="text/css" href="/src/css/portfolio.css">
     <title>Simon Lowe | Portfolio</title>
 </head>
-<body>
+<body class="bg-light bg-gradient">
     <!-- Nav Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 fixed-top bg-gradient">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Simon Lowe</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
@@ -66,34 +66,10 @@
     </div>
 
     <!-- About Me -->
-    <!-- <div class="about-me shadow p-3 mb-5 bg-body rounded w-75 mx-auto row" id="about">
-        <div class="col">
-            <h2>About Me</h2>
-            <div>
-                <p>I've been in the tech industury for a little under 10 years. During my time in tech support, I found my niche was working on Websites. I began my journey to become a Web Developer which has now led me to being a Freelance Developer.
-                </br>Having a background in tech has helped me fully understand how computer works, which in turn helps me with how to create websites. I have a keen eye for detail which I put in to each Website I create or develop.
-                </br>Through using HTML, CSS and JavaScript, alongside other libraries, I build bespoke websites tailored to meet your needs. You can see a full ist of my <a href="#skills">skills</a> below as well as <a href="#mywork">my work</a>. 
-                </p> 
-            </div>
-            <div class="col">
-                <h2>Socials</h2>
-                <a href="https://github.com/LoweSimon" target="_blank">
-                    <i class="fa-brands fa-github fa-fw me-2">GitHub</i>
-                </a>
-                <a href="https://www.linkedin.com/in/simon-lowe-49799688/" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-fw me-2">LinkedIn</i>
-                </a>
-                <a href="https://twitter.com/SimonLowe90" target="_blank">
-                    <i class="fa-brands fa-square-twitter fa-fw me-2">Twitter</i>
-                </a>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="container px-4">
+    <div class="container px-4 pt-3 fade-in" id="about">
         <div class="row gx-8">
             <div class="col-sm">
-                    <div class="p-3 mb-3 shadow bg-light">
+                    <div class="p-3 mb-3 shadow bg-light bg-gradient">
                         <h2>About Me</h2>
                             <div>
                                 <p>I've been in the tech industury for a little under 10 years. During my time in tech support, I found my niche was working on Websites. I began my journey to become a Web Developer which has now led me to being a Freelance Developer.
@@ -104,18 +80,18 @@
                     </div>
             </div>
           <div class="col-sm">
-                <div class="p-3 mb-3 shadow bg-light">
+                <div class="p-3 mb-3 shadow bg-light bg-gradient">
                         <h2>Socials</h2>
                         <a href="https://github.com/LoweSimon" target="_blank">
-                            <i class="fa-brands fa-github fa-fw fa-2xl">GitHub</i>
+                            <i class="fa-brands fa-github fa-fw fa-2xl pb-4 gitlink" id="gitlink">GitHub</i>
                         </a>
                     </br>
                         <a href="https://www.linkedin.com/in/simon-lowe-49799688/" target="_blank">
-                            <i class="fa-brands fa-linkedin fa-fw fa-2xl">LinkedIn</i>
+                            <i class="fa-brands fa-linkedin fa-fw fa-2xl pb-4 linkedlink" id="linkedlink">LinkedIn</i>
                         </a>
                     </br>
                         <a href="https://twitter.com/SimonLowe90" target="_blank">
-                            <i class="fa-brands fa-square-twitter fa-fw fa-2xl">Twitter</i>
+                            <i class="fa-brands fa-square-twitter fa-fw fa-2xl pb-4 twitterlink" id="twitterlink">Twitter</i>
                         </a>
                 </div>
           </div>
@@ -124,7 +100,7 @@
 
 
     <!-- Skills and Tools -->
-    <div class="skills container shadow p-3 mb-5 bg-body rounded w-75 mx-auto col-sm-4 col-md-6" id="skills">
+    <div class="skills container shadow p-3 mb-5 bg-light bg-gradient rounded w-75 mx-auto col-sm-4 col-md-6" id="skills">
         <div class="skills_title">
             <h2>Skills and Tools</h2>
             <p>I enjoy building things from scratch, and enjoy bringing ideas to life. Throughout this I have hands-on experience using the following languages and tools:</p>
@@ -227,14 +203,14 @@
     </form>
 
 
+    
+    <script type="text/javascript" src="/src/js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function(){
            emailjs.init("vs3WXvn1h3bvzTjlA");
         })();
      </script>
-    <script src="/src/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
 </body>
 </html>

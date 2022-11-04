@@ -1,9 +1,16 @@
-body    {
+/* body    {
     position: relative;
+} */
+*   {
+    margin: 0;
 }
 
 body, html  {
-    height: 100%;
+    height: 100vh;
+}
+
+body    {
+    background-repeat: no-repeat;
 }
 
 div {
@@ -12,7 +19,6 @@ div {
 
 /* Navbar styling */
 i   {
-    /* font-size: 1.5rem; */
     color: #e1e1e1;
 }
 
@@ -25,7 +31,7 @@ i   {
 /* Hero section styling */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/web-dev.jpg");
-    height: 50%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,8 +77,16 @@ i   {
 /* About me section styling */
 .about-me, .skills_title   {
     text-align: center;
-    
 }
+
+/* .fade-in    {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+} */
 
 
 /* Skill list styling */
